@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #9dcfe8fa;
+}
+
+#header {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(4, 1, 30, 0.8);
+}
+
+#namehead {
+    color: bisque;
+    text-align: center;
+    font-weight: 900;
+    font-size: xx-large;
+    padding: 10px;
+}
+
+.images {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    padding: auto;
+}
+
+#rock {
+    margin-right: 55px;
+}
+
+#scissor {
+    margin-left: 55px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: xx-large;
+    margin: 50px;
+}
+
+#userCount {
+    float: right;
+    margin-right: 100px;
+}
+
+#compCount {
+    float: left;
+    margin-right: 10px;
+}
+
+#playgame1 {
+    display: flex;
+    justify-content: center;
+}
+
+#playgame {
+    padding: 15px;
+    margin: 20px;
+    font-size: larger;
+    background-color: #ff7f50;
+}
+
+#btn1 {
+    display: flex;
+    justify-content: center;
+}
+
+#btn {
+    font-size: larger;
+    cursor: pointer;
+    background-color: hwb(1 19% 13%);
+}
+
+.rps:hover {
+    transition: background-color 0.3s ease;
+    background-color: aquamarine;
+}
